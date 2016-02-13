@@ -1,3 +1,10 @@
+hr{
+   border: 0;
+  height: 1px;
+  background: #656565;
+  background-image: linear-gradient(to right, #ccc, #656565, #ccc);
+}
+
 .navbar-fixed-top {
   background-color: black;
 }
@@ -8,6 +15,7 @@
 }
 
 h3,
+h2,
 .text {
   text-align: center;
 }
