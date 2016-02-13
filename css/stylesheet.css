@@ -6,3 +6,8 @@
   text-decoration: none;
   color: white;
 }
+
+p,
+h3 {
+  text-align: center;
+}
