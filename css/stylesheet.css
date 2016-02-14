@@ -1,37 +1,60 @@
-hr{
-   border: 0;
-  height: 1px;
-  background: #656565;
-  background-image: linear-gradient(to right, #ccc, #656565, #ccc);
-}
-
-.navbar-fixed-top {
-  background-color: black;
-}
-
-.navbar-link {
-  text-decoration: none;
-  color: white;
-}
-
 h3,
 h2,
 .text {
   text-align: center;
 }
 
-.categories {
-  -moz-box-shadow: 0px 5px 5px 0px #656565;
-  -webkit-box-shadow: 0px 5px 10px 0px #656565;
-  -o-box-shadow: 0px 0px 5px 0px #656565;
-  box-shadow: 0px 0px 5px 0px #656565;
-  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=10);
+.header-bg {
+  z-index: 800;
+}
+
+
+.line {
+  border: 0;
+  height: 1px;
+  background: #656565;
+  background-image: linear-gradient(to right, #ccc, #656565, #ccc);
+}
+
+.navbar-brand {
+  text-indent: -9999px;
+  z-index: 1000;
+}
+
+.navbar-brand img {
+  display: block;
+  background: url('../pop-devicelab.svg') no-repeat center center;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  margin: 0 auto;
+  background-size: cover;
+
+}
+
+/********
+* override bootstrap *
+**********/
+
+.navbar {
+  min-height: 110px;
+  z-index: 1000;
+}
+
+.navbar-nav>li>a {
+  line-height: 78px;
+  font-size:  26px;
+}
+
+.footer {
+  background: black;
 }
 /* Main carousel style */
 .carousel {
     width: 600px;
 }
 
+<<<<<<< HEAD
 /* Indicators list style */
 .article-slide .carousel-indicators {
     bottom: 0;
@@ -63,4 +86,22 @@ h2,
 .article-slide .carousel-indicators .active img {
     border: 2px solid #428BCA;
     opacity: 0.7;
+=======
+@media (max-width: 768px) {
+  .navbar-brand  {
+    text-indent: 0;
+    font-size: 28px;
+    line-height: 81px;
+  }
+  .navbar-brand img {
+    background: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-brand  {
+    font-size: 22px;
+    line-height: 24px;
+  }
+>>>>>>> d7fcf99dd7483569e9015cfdc7a54ba233a13eca
 }
