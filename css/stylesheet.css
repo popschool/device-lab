@@ -47,7 +47,8 @@ h2,
 }
 
 .footer {
-  background: black;
+  background: white;
+  border-top: 5px solid #576270;
 }
 
 
