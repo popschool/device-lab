@@ -20,16 +20,10 @@ h2,
   text-indent: -9999px;
   z-index: 1000;
 }
-
-.navbar-brand img {
-  display: block;
-  background: url('../pop-devicelab.svg') no-repeat center center;
-  width: 100%;
-  height: 0;
-  padding-top: 100%;
-  margin: 0 auto;
-  background-size: cover;
-
+.pull-left {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .devices-gallery {
@@ -55,10 +49,7 @@ h2,
 .footer {
   background: black;
 }
-/* Main carousel style */
-.carousel {
-    width: 600px;
-}
+
 
 /* Indicators list style */
 .article-slide .carousel-indicators {
