@@ -1,7 +1,18 @@
+@fontface {
+  font-family: "linux";
+  src : url("font/linux_biolinum/LinBiolinum_R.ttf");
+}
+
 h3,
 h2,
 .text {
   text-align: center;
+}
+
+h3,
+h2,
+h1 {
+  font-family: "linux";
 }
 
 .header-bg {
