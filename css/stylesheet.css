@@ -56,7 +56,10 @@ h1 {
   line-height: 78px;
   font-size:  26px;
 }
-
+.pull-right {
+  font-size: 20px;
+  padding-top: 10px;
+}
 .footer {
   background: white;
   border-top: 5px solid #576270;
