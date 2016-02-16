@@ -15,6 +15,10 @@ h1 {
   font-family: "linux";
 }
 
+h1 {
+  text-transform: uppercase; 
+}
+
 .header-bg {
   z-index: 800;
 }
@@ -42,6 +46,10 @@ h1 {
   color: #A7ABB1;
   padding: 50px 0;
 }
+.contact {
+  font-size: 20px;
+  padding-top: 10px;
+}
 
 /********
 * override bootstrap *
@@ -56,10 +64,7 @@ h1 {
   line-height: 78px;
   font-size:  26px;
 }
-.pull-right {
-  font-size: 20px;
-  padding-top: 10px;
-}
+
 .footer {
   background: white;
   border-top: 5px solid #576270;
@@ -174,7 +179,7 @@ h1 {
 .hr-short .hr-inner {
   width:32%;
   left:50%;
-  margin-left:-16%;
+  margin-left:-19%;
 }
 .hr-short.hr-left .hr-inner {
   left:0;
